@@ -2,12 +2,10 @@
 .cards-section {
     padding: 8rem 2rem;
     background-color: var(--bg-darker);
-}
-
-.cards-container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .cards-title {
     font-size: clamp(2rem, 5vw, 3.5rem);

@@ -4,6 +4,8 @@ Welcome to Future Shapes: Motion Playground! This is an interactive web page tha
 
 The project's goal is not only to showcase technical skills in front-end development but also to provide a visually rich platform full of motion and interaction that will immediately engage the visitor.
 
+🔗 **[Live Demo](https://balestruci0o.github.io/Future-Shape/)**  
+
 ## 💡 About The Project
 In today's digital world, not only functionality but also visual appeal and user experience are crucial. "Future Shapes" embodies this principle, combining clean code with creative animations and interactive elements. From seamless scroll transformations, to mouse-movement reactions, to dynamic text loading – every detail has been designed to captivate and inspire.
 

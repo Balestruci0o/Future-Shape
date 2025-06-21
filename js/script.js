@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Animate hero title immediately
     const title = document.getElementById('animatedTitle');
     const text = title.textContent;
     title.textContent = '';
@@ -12,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
         title.appendChild(span);
     }
 
-    // Set up IntersectionObserver for animated text
     const animatedText = document.getElementById('animatedText');
     const typoSection = document.getElementById('typo');
     
@@ -20,10 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 animateTextContent();
-                textObserver.unobserve(typoSection); // Stop observing after triggering once
+                textObserver.unobserve(typoSection); 
             }
         });
-    }, { threshold: 0.2 }); // Trigger when 20% of section is visible
+    }, { threshold: 0.2 }); 
 
     textObserver.observe(typoSection);
 
@@ -52,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Rest of your existing code (scroll progress, parallax effects, etc.)
     window.addEventListener('scroll', function() {
         const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;

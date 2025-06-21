@@ -2,12 +2,10 @@
 .gallery-section {
     padding: 8rem 2rem;
     background-color: var(--bg-dark);
-}
-
-.gallery-container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .gallery-title {
     font-size: clamp(2rem, 5vw, 3.5rem);

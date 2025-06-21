@@ -1,4 +1,4 @@
-# Future Shapes: Motion Playground
+# ⚙️ Future Shapes: Motion Playground
 
 Welcome to Future Shapes: Motion Playground! This is an interactive web page that serves as a dynamic portfolio and a showcase of modern web animations and UI/UX techniques. It's designed to demonstrate how captivating and fluid user experiences can be created using pure HTML, CSS, and JavaScript.
 

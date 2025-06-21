@@ -1,0 +1,48 @@
+/* Animated Typography Section */
+.typo-section {
+    padding: 8rem 2rem;
+    background-color: var(--bg-darker);
+    position: relative;
+    overflow: hidden;
+}
+
+.typo-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.typo-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-bottom: 3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.typo-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-teal), var(--accent-purple));
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: scaleIn 1.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    animation-delay: 0.5s;
+}
+
+.typo-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--text-dim);
+    margin-bottom: 2rem;
+}
+
+.typo-letters {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+}

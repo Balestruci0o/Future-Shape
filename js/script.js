@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Animate hero title immediately
     const title = document.getElementById('animatedTitle');
     const text = title.textContent;
     title.textContent = '';
@@ -10,31 +11,48 @@ document.addEventListener('DOMContentLoaded', function() {
         span.style.animationDelay = `${0.1 + i * 0.05}s`;
         title.appendChild(span);
     }
-    
+
+    // Set up IntersectionObserver for animated text
     const animatedText = document.getElementById('animatedText');
-    const textContent = animatedText.textContent;
-    animatedText.textContent = '';
-
-    const wordFragments = textContent.split(/(\s+)/);
-
-    wordFragments.forEach((fragment, i) => {
-        if (!fragment) return;
-        
-        const fragmentSpan = document.createElement('span');
-        fragmentSpan.style.display = 'inline-block';
-        
-        if (fragment.trim() === '') {
-            fragmentSpan.innerHTML = '&nbsp;'.repeat(fragment.length);
-            fragmentSpan.style.animationDelay = `${1 + i * 0.05}s`;
-        } else {
-            fragmentSpan.textContent = fragment;
-            fragmentSpan.style.animationDelay = `${1 + i * 0.1}s`;
-        }
-        
-        fragmentSpan.className = 'typo-letters';
-        animatedText.appendChild(fragmentSpan);
-    });
+    const typoSection = document.getElementById('typo');
     
+    const textObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateTextContent();
+                textObserver.unobserve(typoSection); // Stop observing after triggering once
+            }
+        });
+    }, { threshold: 0.2 }); // Trigger when 20% of section is visible
+
+    textObserver.observe(typoSection);
+
+    function animateTextContent() {
+        const textContent = animatedText.textContent;
+        animatedText.textContent = '';
+
+        const wordFragments = textContent.split(/(\s+)/);
+
+        wordFragments.forEach((fragment, i) => {
+            if (!fragment) return;
+            
+            const fragmentSpan = document.createElement('span');
+            fragmentSpan.style.display = 'inline-block';
+            
+            if (fragment.trim() === '') {
+                fragmentSpan.innerHTML = '&nbsp;'.repeat(fragment.length);
+                fragmentSpan.style.animationDelay = `${0.1 + i * 0.05}s`;
+            } else {
+                fragmentSpan.textContent = fragment;
+                fragmentSpan.style.animationDelay = `${0.1 + i * 0.1}s`;
+            }
+            
+            fragmentSpan.className = 'typo-letters';
+            animatedText.appendChild(fragmentSpan);
+        });
+    }
+    
+    // Rest of your existing code (scroll progress, parallax effects, etc.)
     window.addEventListener('scroll', function() {
         const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;

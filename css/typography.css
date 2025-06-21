@@ -4,9 +4,6 @@
     background-color: var(--bg-darker);
     position: relative;
     overflow: hidden;
-}
-
-.typo-container {
     max-width: 1200px;
     margin: 0 auto;
 }

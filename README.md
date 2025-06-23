@@ -21,7 +21,7 @@ This project demonstrating skills in:
 
 ## ✨ Key Features
 
-#### 🌟&nbsp;&nbsp;Engaging Hero Section:
+#### 🌟&nbsp;&nbsp;**Engaging Hero Section:**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A dynamic title with a typing effect and floating shapes that react to mouse movement.
 
 #### ✍️ **Animated Typography**: 

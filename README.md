@@ -6,6 +6,8 @@ The project's goal is not only to showcase technical skills in front-end develop
 
 🔗 **[Live Demo](https://balestruci0o.github.io/Future-Shape/)**  
 
+---
+
 ## 💡 About The Project
 In today's digital world, not only functionality but also visual appeal and user experience are crucial. "Future Shapes" embodies this principle, combining clean code with creative animations and interactive elements. From seamless scroll transformations, to mouse-movement reactions, to dynamic text loading – every detail has been designed to captivate and inspire.
 
@@ -18,6 +20,8 @@ This project demonstrating skills in:
 * Creating smooth user interfaces without extensive libraries.
 
 * Core principles of responsive design and optimization.
+
+---
 
 ## ✨ Key Features
 
@@ -53,6 +57,8 @@ This project demonstrating skills in:
 ### 📧**Contact Form**: 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A simple yet stylish form for inquiries.
 
+---
+
 ## 🚀 How to Get Started
 1. **Launch Online (recommended for instant experience!):**
    * For an immediate preview, visit the [Live Demo](https://balestruci0o.github.io/Future-Shape/).
@@ -63,13 +69,17 @@ This project demonstrating skills in:
    * Ensure the directory structure is maintained (i.e., ```js/script.js``` and ```css/style.css``` are in their respective subdirectories).
   
    * Simply open the ```index.html``` file in your preferred web browser.
-     
+
+---
+
 ## 🛠️ Technologies Used
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="20" />  HTML5
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="20"/>   CSS3
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="20"/>   JavaScript
+
+---
 
 ## 📁 Project Structure
 
@@ -81,6 +91,8 @@ This project demonstrating skills in:
  ┗ 📂 js
    ┗ 📄 script.js
 ```
+
+---
 
 ## 📄 License
 This project is licensed under the **MIT License**.

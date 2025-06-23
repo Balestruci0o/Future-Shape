@@ -21,37 +21,37 @@ This project demonstrating skills in:
 
 ## ✨ Key Features
 
-#### 🌟&nbsp;&nbsp;**Engaging Hero Section:**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A dynamic title with a typing effect and floating shapes that react to mouse movement.
+### 🌟 **Engaging Hero Section**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A dynamic title with a typing effect and floating shapes that react to mouse movement.
 
-#### ✍️ **Animated Typography**: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text that dynamically appears, creating a visually interesting entry point.
+### ✍️ **Animated Typography**: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Text that dynamically appears, creating a visually interesting entry point.
 
-#### 🔄 **Scroll Transformations**: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elements that rotate, scale, and reveal as you scroll down the page, adding depth and dynamism.
+### 🔄 **Scroll Transformations**: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Elements that rotate, scale, and reveal as you scroll down the page, adding depth and dynamism.
 
-#### 🖱️ **Interactive Cards**: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cards that respond to mouse movement with 3D tilting and subtle transitions, enhancing interaction.
+### 🖱️ **Interactive Cards**: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cards that respond to mouse movement with 3D tilting and subtle transitions, enhancing interaction.
 
-#### 🎨 **Motion Gallery**: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A section demonstrating various animation types:
+### 🎨 **Motion Gallery**: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A section demonstrating various animation types:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🖌️ **SVG Path Drawing**: Drawing SVG paths with animation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🖌️ **SVG Path Drawing**: Drawing SVG paths with animation.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✨ **Morphing Shapes**: Fluid transformations between geometric forms.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✨ **Morphing Shapes**: Fluid transformations between geometric forms.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💡 **Neon Glow**: Pulsating neon light effects.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 💡 **Neon Glow**: Pulsating neon light effects.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌌 **Parallax Depth**: Layered elements that move at different speeds for an illusion of depth.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌌 **Parallax Depth**: Layered elements that move at different speeds for an illusion of depth.
 
-#### 📱&nbsp;&nbsp;**Responsive Design**:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fully adaptable for various devices, from mobiles to desktops.
+### 📱&nbsp;&nbsp;**Responsive Design**:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fully adaptable for various devices, from mobiles to desktops.
 
-#### 📊&nbsp;&nbsp;**Scroll Progress Bar**: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A visual indicator of your scrolling progress on the page.
+### 📊&nbsp;&nbsp;**Scroll Progress Bar**: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A visual indicator of your scrolling progress on the page.
 
-#### 📧**Contact Form**: 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A simple yet stylish form for inquiries.
+### 📧**Contact Form**: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A simple yet stylish form for inquiries.
 
 ## 🚀 How to Get Started
 1. **Launch Online (recommended for instant experience!):**
